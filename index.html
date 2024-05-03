@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <script src = "script.js"></script>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+    <div class="content" id="converter">
+
+        <h1>Unit Converter</h1>
+
+        <p>Enter a value to convert:</p><br>
+
+        <input type="text" id="numUnits">
+
+        <select name="unitList" id="unitList">
+            <option id="lb->kg">Pounds to Kilograms</option>
+            <option id="mi->km">Miles to Kilometers</option>
+            <option id="ft->m">Feet to Meters</option>
+        </select>
+
+        <button id="convertButton" onclick="unitConvert()">Convert</button>
+
+        <p id="result">Result:</p>
+
+    </div>
+    </body>
+</html>
